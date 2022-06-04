@@ -85,7 +85,7 @@ body{
     margin-bottom: 32px;
 
 }
->card_title, .section_title, .header_logo{
+.card_title, .section_title, .header_logo{
     font-family:"Montserrat",sans-serif;
 }
 a{
@@ -254,7 +254,7 @@ display: flex;
 /*section about*/
 
 /*section cards*/
-.cards{
+#cards{
     padding: 80px 0;
 }
 .cards_subtitle{
@@ -264,4 +264,89 @@ display: flex;
 .cards_header{
     margin-bottom: 88px;
 }
+.card_title{
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.card_link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+    width: 97px;
+    height: 27px;
+}
 /*section cards*/
+
+/*section reservation*/
+.reservation_desc{
+    width: 794px;
+    margin-top: 44px;
+    text-align: center;
+}
+.reservation_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #192252;
+    margin-bottom: 26px;
+}
+.reservation_img{
+    margin-top: 38px;
+}
+.reservation .d-flex svg:not(:last-child){
+    margin-right: 12px;
+}
+/*section reservation*/
+
+/*footer*/
+.footer{
+    background-color: #0B265A;
+    padding: 120px 0;
+    color: white;
+    margin-top: 80px;
+    height: 444px;
+}
+.footer_logo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+
+}
+.footer_desc{
+    width: 186px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D9DBDE;
+    margin: 13px 0 36px;
+}.fa-brands{
+    color: #ffffff;
+    font-size: 32px;
+    margin-right: 24px;
+ }
+.footer_nav:not(:last-child){
+     margin-right: 100px;
+ }
+.footer_link{
+     display: block;
+     margin-bottom: 24px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     color: #D9DBDE;
+ }
+.footer_title{
+     font-weight: 700;
+     color: white;
+ }
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+/*footer*/
